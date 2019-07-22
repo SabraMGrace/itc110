@@ -5,7 +5,7 @@ def happy():
     return "Happy birthday to you!\n"
 
 def verseFor(person):
-    lyrics = happy()*2 + "Happy birthday, dear " + person + "\n" + happy()
+    lyrics = happy()*2 + "Happy birthday, dear " + person + "!" + "\n" + happy()
     return lyrics
 
 def main():
