@@ -1,7 +1,6 @@
 # drawFace
 #   draw 3 faces, each one smaller than the last using a function.
 
-import math
 from graphics import *
 
 def main():
