@@ -1,6 +1,6 @@
-#sabraGrace
-#itc110
-#28july19
+# sabraGrace
+# itc110
+# 28july19
 #   drawFace
 #       draw 3 faces, each one smaller than the last using a function.
 
