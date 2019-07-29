@@ -1,5 +1,8 @@
-# drawFace
-#   draw 3 faces, each one smaller than the last using a function.
+#sabraGrace
+#itc110
+#28july19
+#   drawFace
+#       draw 3 faces, each one smaller than the last using a function.
 
 from graphics import *
 
