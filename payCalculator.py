@@ -4,8 +4,8 @@
 # Week 8 Assignment
 # payCalculator.py
 
-import math
 
+# Calculate the amount of pay earned last week.
 def main():
     print("Weekly Pay Calculator")
     payCalculator()
@@ -15,7 +15,7 @@ def payCalculator():
     hours = float(input("How many hours did you work last week? "))
     wage = float(input("What is your hourly wage? "))
 
-# account for overtime pay
+# calculate pay and account for overtime pay
     if hours > 40:
         regPay = 40 * wage
         overtimeHours = hours - 40
