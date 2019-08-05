@@ -16,17 +16,19 @@ def payCalculator():
     wage = float(input("What is your hourly wage? "))
 
 # calculate pay and account for overtime pay
+    if hours >= 168:
+        print("\n Go home to rest! You have worked WAY too much!")
     if hours <= 40 and hours > 0:
         totalPay = hours * wage
-        print("You earned a total of ${0:0.2f}".format(totalPay))
+        print("\n You earned a total of ${0:0.2f}".format(totalPay))
     elif hours > 40:
         regPay = 40 * wage
         overtimeHours = hours - 40
         overtimePay = overtimeHours * (wage * 1.5)
         totalPay = overtimePay + regPay
-        print("You earned a total of ${0:0.2f}".format(totalPay))
+        print("\n You earned a total of ${0:0.2f}".format(totalPay))
     else:
-        print("You didn't work last week. You haven't earned any wages.")
+        print("\n You didn't work last week. You haven't earned any wages.")
 
 
 main()
